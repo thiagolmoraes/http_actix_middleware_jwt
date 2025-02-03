@@ -1,0 +1,17 @@
+### Login
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "123Change"
+}
+
+###  Index Page
+GET http://127.0.0.1:8000/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb21wYW55IjoiYXBpX3J1c3QiLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImV4cCI6MTczODYwNzgzNjQ5NX0.zi5Fhn4KzdZ8VPUfxbg6awtPOAWmqlsk9G6Hi5mqiVo
+
+
+### Me page
+GET http://127.0.0.1:8000/me
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb21wYW55IjoiYXBpX3J1c3QiLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImV4cCI6MTczODYwNzgzNjQ5NX0.zi5Fhn4KzdZ8VPUfxbg6awtPOAWmqlsk9G6Hi5mqiVo
